@@ -5,7 +5,7 @@ import Options from './Components/Options';
 function App() {
   return (
     <div className="App">
-      <h1>
+      <h1 class = "header">
       Project Wander
       </h1>
       <Options />
