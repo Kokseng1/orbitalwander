@@ -4,6 +4,9 @@ import PageOne from './Components/PageOne';
 import PageTwo from './Components/PageTwo';
 import PageThree from './Components/PageThree';
 import PageFour from './Components/PageFour';
+import PageFive from './Components/PageFive';
+import PageFiveW from './Components/PageFiveW';
+import PageFiveL from './Components/PageFiveL';
 import Text from './Components/Text';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -22,6 +25,9 @@ function App() {
         <Route path="/PageTwo" element={<PageTwo />} />
         <Route path="/PageThree" element={<PageThree />} />
         <Route path="/PageFour" element={<PageFour />} />
+        <Route path="/PageFive" element={<PageFive />} />
+        <Route path="/PageFiveW" element={<PageFiveW />} />
+        <Route path="/PageFiveL" element={<PageFiveL />} />
       </Routes>
     </Router>
       </p>
