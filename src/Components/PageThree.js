@@ -1,4 +1,5 @@
 //after both options of PageTwo
+//obsolete, combined with pageOne
 export default function PageThree() {
     return (
         <div class="PagesThree">
