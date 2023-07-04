@@ -7,6 +7,8 @@ import PageFour from './Components/PageFour';
 import PageFiveL from './Components/PageFiveL';
 import PageFiveW from './Components/PageFiveW';
 import PageFive from './Components/PageFive';
+import PageSix from './Components/PageSix';
+import PageSeven from './Components/PageSeven';
 import Text from './Components/Text';
 import Login from './Components/Login';
 import React, {createContext, useState} from 'react';
@@ -30,6 +32,8 @@ function App() {
         <Route path="/PageFiveL" element={<PageFiveL />} />
         <Route path="/PageFiveW" element={<PageFiveW />} />
         <Route path="/PageFive" element={<PageFive />} />
+        <Route path="/PageSix" element={<PageSix />} />
+        <Route path="/PageSeven" element={<PageSeven />} />
         <Route path="/Text" element={<Text />} />
       </Routes>
     </Router>

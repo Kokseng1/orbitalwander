@@ -1,7 +1,9 @@
 //go straight from pagefour
 export default function PageFive() {
     var next = "PageFiveW";
-    if (localStorage.getItem("rock") === "true") {
+    var chance = Math.random();
+
+    if ((localStorage.getItem("rock") === "true" && chance>0.1) || (localStorage.getItem("rock") === null && chance<0.1)) {
         next = "PageFiveL";   
     }
 
