@@ -11,6 +11,7 @@ import PageSix from './Components/PageSix';
 import PageSeven from './Components/PageSeven';
 import Text from './Components/Text';
 import Login from './Components/Login';
+import PageSevenOutcome from './Components/PageSevenOutcome';
 import React, {createContext, useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/PageSix" element={<PageSix />} />
         <Route path="/PageSeven" element={<PageSeven />} />
         <Route path="/Text" element={<Text />} />
+        <Route path="/PageSevenOutcome" element={<PageSevenOutcome />} />
       </Routes>
     </Router>
       </p>
