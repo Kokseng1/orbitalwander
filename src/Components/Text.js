@@ -1,3 +1,7 @@
+function addStaff() {
+    localStorage.setItem("staff", "true");
+}
+
 export default function Text() {
     return (
         <div class="PagesText">
@@ -6,7 +10,7 @@ export default function Text() {
             he does not say a word, but reaches his hand out to offer you a staff. It looks like an amateur's staff they use at training schools. 
         </div> 
         <div class="Options">
-            <a href="PageOne">Accept the staff</a>
+            <a href="PageOne" onClick={() => addStaff()}>Accept the staff</a>
         <br/>
             <a href="PageOne">Reject the staff</a>
         </div>

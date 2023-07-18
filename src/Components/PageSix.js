@@ -13,7 +13,7 @@ or do you venture into the unknown on the south path?
 <div class="Options">
 <a href="/PageSeven">North</a>
 <br/>
-<a href="/Text">South</a>
+<a href="/PageSix">South</a>
 </div>
 </div>)
 
@@ -26,9 +26,9 @@ if (localStorage.getItem("PageSix") === "true") {
             <div class="Options">
             <a href="/PageSeven">North</a>
             <br/>
-            <a href="/Text">South</a>
+            <a href="/PageSix">South</a>
             <br/>
-            <a href="/Five">West</a>
+            <a href="/PageFive">West</a>
         </div>
         </div>
     )
