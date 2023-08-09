@@ -1,4 +1,6 @@
 //bottom left
+//rock gives 90% chance of losing the game at pageFive
+
 function addRock() {
     localStorage.setItem("rock", "true");
 }

@@ -1,3 +1,5 @@
+//staff gives 10% chance of winning the game at pageSeven
+
 function addStaff() {
     localStorage.setItem("staff", "true");
 }
