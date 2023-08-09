@@ -9,9 +9,13 @@ import PageFiveW from './Components/PageFiveW';
 import PageFive from './Components/PageFive';
 import PageSix from './Components/PageSix';
 import PageSeven from './Components/PageSeven';
+import PageSevenOutcome from './Components/PageSevenOutcome';
+import PageEight from './Components/PageEight';
+import PageNine from './Components/PageNine';
+import PageTen from './Components/PageTen';
+import PageTenWin from './Components/PageTenWin';
 import Text from './Components/Text';
 import Login from './Components/Login';
-import PageSevenOutcome from './Components/PageSevenOutcome';
 import React, {createContext, useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -37,6 +41,10 @@ function App() {
         <Route path="/PageSeven" element={<PageSeven />} />
         <Route path="/Text" element={<Text />} />
         <Route path="/PageSevenOutcome" element={<PageSevenOutcome />} />
+        <Route path="/PageEight" element={<PageEight />} />
+        <Route path="/PageNine" element={<PageNine />} />
+        <Route path="/PageTen" element={<PageTen />} />
+        <Route path="/PageTenWin" element={<PageTenWin />} />
       </Routes>
     </Router>
       </p>
