@@ -30,7 +30,7 @@ function win() {
 if (localStorage.getItem("hostile") === "true") {
     if (win) {
         text =  (
-            <div class="heading">
+            <div class="Heading">
                 "YOU WILL GO NO FURTHER!" The shapeshifter reveals its true form and lunges at you. You instinctively cast a bind on her and it worked, stopping her in her tracks.
                 She does not speak but continues to struggle towards you in futility, you are confident that the bind will be more than enough to keep
                 her at bay so you continue ahead.
@@ -42,7 +42,7 @@ if (localStorage.getItem("hostile") === "true") {
         </div>
     } else {
         text =  (
-            <div class="heading">
+            <div class="Heading">
                 "YOU WILL GO NO FURTHER!" The shapeshifter reveals its true form and lunges at you. You try to cast a bind on her but it failed, your makeshift equipment just isn't enough to
                 do the job. With a single swipe, the shapeshifter takes you down...
             </div>
@@ -57,8 +57,12 @@ if (localStorage.getItem("hostile") === "true") {
 export default function PageTen() {
     return (
         <div class="PagesTen">
+        <div class="Heading">
             {text}
+            </div>
+        <div class="Options">
             {options}
+        </div>
         </div>
     )
 }

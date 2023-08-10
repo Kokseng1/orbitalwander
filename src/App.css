@@ -5,17 +5,20 @@ body{
 }
 
 .App{
+  background-image: url('fantasy.jpg');
+  background-position: top center;
+  background-size: 1900px;
+  background-repeat: no-repeat;
   display:flex;
   align-content:start;
-  justify-content:start;
+  justify-content:center;
   width:100%;
   height:3000px;
   align-items:center;
   flex-wrap:wrap;
   border:0px;
   padding:0px;
-  color:black;
-  background-color:green;
+  background-color: green;
 }
 
 .header{
@@ -32,10 +35,35 @@ body{
 }
 
 .Heading{
+  align-items:center;
+  justify-content:center;
   display:flex;
   margin-right:20px;
   margin-left:20px;
-  margin-top:20px;
+  margin-top:50px;
   margin-bottom:20px;
   font-size:25px;
+  border: 50px none;
+  padding: 30px;
+  background-image: radial-gradient(rgba(255,255,255,1), rgba(255, 0, 0, 0));
 }
+
+.Options a{
+  text-decoration: none;
+  color: black;
+  justify-content:center;
+  display: inline-block;
+  margin-bottom:20px;
+  border: 5px solid rgb(65, 65, 184);
+  padding: 10px;
+  background-color: rgb(235, 194, 14);
+}
+
+.Options a:hover {
+  justify-content:center;
+  display: inline-block;
+  margin-bottom:20px;
+  border: 10px solid rgb(34, 4, 224);
+  padding: 10px;
+}
+

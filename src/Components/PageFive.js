@@ -18,7 +18,9 @@ export default function PageFive() {
     if (localStorage.getItem("Five") === "true") {
         return (
             <div class="PageFive">
+                <div class="Heading">
                 This is the junction in which the troll was at. However there is no sign of it now.
+                </div>
                 <div class="Options">
                 <a href="PageThree">Head west</a>
             <br/>
